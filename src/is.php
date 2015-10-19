@@ -39,7 +39,7 @@
 
 class Is {
 
-	const version = '1.0.2';
+	const version = '1.0.1';
 
 	const undefined = 'undefined';
 
@@ -114,6 +114,16 @@ class Is {
 			/** (same) */
 			'same' => function($a, $b) {
 				return $a === $b;
+			},
+
+			/** (associated) */
+			'associated' => function($o) {
+				return is_array($o) ? (bool)count(array_filter(array_keys($o), 'is_string')) : false;
+			},
+
+			/** (sequential) */
+			'sequential' => function ($o) {
+				return is_array($o) ? !self::associated($o) : false;
 			},
 
 		]; /** __methods **/

@@ -41,6 +41,8 @@ Method 			|	Description
 `defined`		|	Returns true if the argument is defined, e.g. not `undefined`
 `empty`			|	Returns true if the argument is really empty
 `same`			|	Returns true if two arguments are equal, e.g. ```Is.same('1', '1');```
+`associated`  	|	Returns true if the argument is an associated array
+`sequential`	| 	Returns true if the argument is an sequential array
 
 Additionally the library also provides some basic validation expression filters:
 
