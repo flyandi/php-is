@@ -1,7 +1,7 @@
 <?php
 /**
  * flyandi:is library for PHP
- * @version: v1.0.0
+ * @version: v1.0.1
  * @author: Andy Schwarz
  *
  * Created by Andy Schwarz. Please report any bug at http://github.com/flyandi/php-is
