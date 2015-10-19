@@ -1,0 +1,20 @@
+{
+    "name": "flyandi/is",
+    "type": "library",
+    "description": "A collection of useful is conditions.",
+    "keywords": [],
+    "homepage": "https://github.com/flyandi/php-is",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Andreas Schwarz",
+            "email": "flyandi@yahoo.com"
+        }
+    ],
+    "autoload": {
+      
+        "files": ["src/is.php"]
+    },
+    "minimum-stability": "dev"
+}
